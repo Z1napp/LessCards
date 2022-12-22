@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED62464E2954C4B600147FBC /* LessCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED62464D2954C4B600147FBC /* LessCardsApp.swift */; };
+		ED6246502954C4B600147FBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED62464F2954C4B600147FBC /* ContentView.swift */; };
+		ED6246522954C4B700147FBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6246512954C4B700147FBC /* Assets.xcassets */; };
+		ED6246552954C4B700147FBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6246542954C4B700147FBC /* Preview Assets.xcassets */; };
+		ED62465F2954C4B700147FBC /* LessCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED62465E2954C4B700147FBC /* LessCardsTests.swift */; };
+		ED6246692954C4B700147FBC /* LessCardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6246682954C4B700147FBC /* LessCardsUITests.swift */; };
+		ED62466B2954C4B700147FBC /* LessCardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED62466A2954C4B700147FBC /* LessCardsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED62465B2954C4B700147FBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED6246422954C4B600147FBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED6246492954C4B600147FBC;
+			remoteInfo = LessCards;
+		};
+		ED6246652954C4B700147FBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED6246422954C4B600147FBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED6246492954C4B600147FBC;
+			remoteInfo = LessCards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED62464A2954C4B600147FBC /* LessCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LessCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED62464D2954C4B600147FBC /* LessCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessCardsApp.swift; sourceTree = "<group>"; };
+		ED62464F2954C4B600147FBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED6246512954C4B700147FBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED6246542954C4B700147FBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED62465A2954C4B700147FBC /* LessCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LessCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED62465E2954C4B700147FBC /* LessCardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessCardsTests.swift; sourceTree = "<group>"; };
+		ED6246642954C4B700147FBC /* LessCardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LessCardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6246682954C4B700147FBC /* LessCardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessCardsUITests.swift; sourceTree = "<group>"; };
+		ED62466A2954C4B700147FBC /* LessCardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessCardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED6246472954C4B600147FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6246572954C4B700147FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6246612954C4B700147FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED6246412954C4B600147FBC = {
+			isa = PBXGroup;
+			children = (
+				ED62464C2954C4B600147FBC /* LessCards */,
+				ED62465D2954C4B700147FBC /* LessCardsTests */,
+				ED6246672954C4B700147FBC /* LessCardsUITests */,
+				ED62464B2954C4B600147FBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED62464B2954C4B600147FBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED62464A2954C4B600147FBC /* LessCards.app */,
+				ED62465A2954C4B700147FBC /* LessCardsTests.xctest */,
+				ED6246642954C4B700147FBC /* LessCardsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED62464C2954C4B600147FBC /* LessCards */ = {
+			isa = PBXGroup;
+			children = (
+				ED62464D2954C4B600147FBC /* LessCardsApp.swift */,
+				ED62464F2954C4B600147FBC /* ContentView.swift */,
+				ED6246512954C4B700147FBC /* Assets.xcassets */,
+				ED6246532954C4B700147FBC /* Preview Content */,
+			);
+			path = LessCards;
+			sourceTree = "<group>";
+		};
+		ED6246532954C4B700147FBC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ED6246542954C4B700147FBC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED62465D2954C4B700147FBC /* LessCardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED62465E2954C4B700147FBC /* LessCardsTests.swift */,
+			);
+			path = LessCardsTests;
+			sourceTree = "<group>";
+		};
+		ED6246672954C4B700147FBC /* LessCardsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED6246682954C4B700147FBC /* LessCardsUITests.swift */,
+				ED62466A2954C4B700147FBC /* LessCardsUITestsLaunchTests.swift */,
+			);
+			path = LessCardsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED6246492954C4B600147FBC /* LessCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED62466E2954C4B700147FBC /* Build configuration list for PBXNativeTarget "LessCards" */;
+			buildPhases = (
+				ED6246462954C4B600147FBC /* Sources */,
+				ED6246472954C4B600147FBC /* Frameworks */,
+				ED6246482954C4B600147FBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LessCards;
+			productName = LessCards;
+			productReference = ED62464A2954C4B600147FBC /* LessCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED6246592954C4B700147FBC /* LessCardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6246712954C4B700147FBC /* Build configuration list for PBXNativeTarget "LessCardsTests" */;
+			buildPhases = (
+				ED6246562954C4B700147FBC /* Sources */,
+				ED6246572954C4B700147FBC /* Frameworks */,
+				ED6246582954C4B700147FBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED62465C2954C4B700147FBC /* PBXTargetDependency */,
+			);
+			name = LessCardsTests;
+			productName = LessCardsTests;
+			productReference = ED62465A2954C4B700147FBC /* LessCardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED6246632954C4B700147FBC /* LessCardsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6246742954C4B700147FBC /* Build configuration list for PBXNativeTarget "LessCardsUITests" */;
+			buildPhases = (
+				ED6246602954C4B700147FBC /* Sources */,
+				ED6246612954C4B700147FBC /* Frameworks */,
+				ED6246622954C4B700147FBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED6246662954C4B700147FBC /* PBXTargetDependency */,
+			);
+			name = LessCardsUITests;
+			productName = LessCardsUITests;
+			productReference = ED6246642954C4B700147FBC /* LessCardsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED6246422954C4B600147FBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					ED6246492954C4B600147FBC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					ED6246592954C4B700147FBC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ED6246492954C4B600147FBC;
+					};
+					ED6246632954C4B700147FBC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ED6246492954C4B600147FBC;
+					};
+				};
+			};
+			buildConfigurationList = ED6246452954C4B600147FBC /* Build configuration list for PBXProject "LessCards" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED6246412954C4B600147FBC;
+			productRefGroup = ED62464B2954C4B600147FBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED6246492954C4B600147FBC /* LessCards */,
+				ED6246592954C4B700147FBC /* LessCardsTests */,
+				ED6246632954C4B700147FBC /* LessCardsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED6246482954C4B600147FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6246552954C4B700147FBC /* Preview Assets.xcassets in Resources */,
+				ED6246522954C4B700147FBC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6246582954C4B700147FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6246622954C4B700147FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED6246462954C4B600147FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6246502954C4B600147FBC /* ContentView.swift in Sources */,
+				ED62464E2954C4B600147FBC /* LessCardsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6246562954C4B700147FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED62465F2954C4B700147FBC /* LessCardsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6246602954C4B700147FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6246692954C4B700147FBC /* LessCardsUITests.swift in Sources */,
+				ED62466B2954C4B700147FBC /* LessCardsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED62465C2954C4B700147FBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED6246492954C4B600147FBC /* LessCards */;
+			targetProxy = ED62465B2954C4B700147FBC /* PBXContainerItemProxy */;
+		};
+		ED6246662954C4B700147FBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED6246492954C4B600147FBC /* LessCards */;
+			targetProxy = ED6246652954C4B700147FBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ED62466C2954C4B700147FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED62466D2954C4B700147FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED62466F2954C4B700147FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LessCards/Preview Content\"";
+				DEVELOPMENT_TEAM = YZRGJ6V9NY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VP.LessCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED6246702954C4B700147FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LessCards/Preview Content\"";
+				DEVELOPMENT_TEAM = YZRGJ6V9NY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VP.LessCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED6246722954C4B700147FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YZRGJ6V9NY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VP.LessCardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LessCards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LessCards";
+			};
+			name = Debug;
+		};
+		ED6246732954C4B700147FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YZRGJ6V9NY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VP.LessCardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LessCards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LessCards";
+			};
+			name = Release;
+		};
+		ED6246752954C4B700147FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YZRGJ6V9NY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VP.LessCardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LessCards;
+			};
+			name = Debug;
+		};
+		ED6246762954C4B700147FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YZRGJ6V9NY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VP.LessCardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LessCards;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED6246452954C4B600147FBC /* Build configuration list for PBXProject "LessCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED62466C2954C4B700147FBC /* Debug */,
+				ED62466D2954C4B700147FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED62466E2954C4B700147FBC /* Build configuration list for PBXNativeTarget "LessCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED62466F2954C4B700147FBC /* Debug */,
+				ED6246702954C4B700147FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6246712954C4B700147FBC /* Build configuration list for PBXNativeTarget "LessCardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6246722954C4B700147FBC /* Debug */,
+				ED6246732954C4B700147FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6246742954C4B700147FBC /* Build configuration list for PBXNativeTarget "LessCardsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6246752954C4B700147FBC /* Debug */,
+				ED6246762954C4B700147FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED6246422954C4B600147FBC /* Project object */;
+}
